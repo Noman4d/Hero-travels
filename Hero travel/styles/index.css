@@ -1,0 +1,52 @@
+
+* {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+}
+/* Header*/
+.navs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-title{
+            display: flex;
+            align-items: center;
+}
+.header-title h3{
+    color: #131318;
+
+font-size: 36px;
+
+font-weight: 800;
+
+}
+.header-sections{
+        display: flex;
+      
+}
+.header-sections ul{
+    margin-right: 20px;
+}
+.header-sections ul a{
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+}
+.home{
+    color: #FF5400;
+}
+.travel{
+    color: #FF5400;
+
+font-size: 36px;
+
+font-weight: 800;
+
+}
