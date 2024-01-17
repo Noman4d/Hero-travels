@@ -4,6 +4,7 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+    /* border: red solid 2px; */
     
    
 }
@@ -16,6 +17,7 @@
 .header-title{
             display: flex;
             align-items: center;
+            margin-left: -12px;
 }
 .header-title h3{
     color: #131318;
@@ -27,10 +29,11 @@ font-weight: 800;
 }
 .header-sections{
         display: flex;
+        margin-right: -23px;
       
 }
 .header-sections ul{
-    margin-right: 20px;
+    margin-right: 25px;
 }
 .header-sections ul a{
     text-decoration: none;
@@ -49,4 +52,78 @@ font-size: 36px;
 
 font-weight: 800;
 
+}
+/*  */
+/* Banner sction */
+.banner{
+   background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    height: 500px;
+    border-radius: 16px;
+    background-size: cover;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.banner-inputs{
+    display: inline-flex;
+padding: 16px;
+align-items: flex-start;
+gap: 24px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+margin-top: 50px;
+}
+.banner-inputs select{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    margin: 0 24px;
+    border: none;
+    
+}
+.banner-inputs select option{
+    color: rgba(19, 19, 24, 0.50);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;;
+font-weight: 400;
+
+}
+
+.btn{
+    width: 174px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FF5400;
+border: none;
+
+color: #FFF;
+text-align: center;
+font-size: 16px;
+font-weight: 700;
+
+}
+.banner-titles h1{
+    color: #FFF;
+font-family: Mulish;
+font-size: 64px;
+font-weight: 800;
+text-align: center;
+
+}
+.banner-titles p{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+ width: 665px;
+ margin-top: 30px;
 }
