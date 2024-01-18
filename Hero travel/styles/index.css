@@ -1,7 +1,7 @@
 
 * {
     max-width: 1200px;
-    margin: 0 auto;
+    margin:0px auto;
     padding: 0;
     box-sizing: border-box;
     /* border: red solid 2px; */
@@ -13,6 +13,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 30px;
 }
 .header-title{
             display: flex;
@@ -69,9 +70,9 @@ font-weight: 800;
 
 }
 .banner-inputs{
-    display: inline-flex;
+
 padding: 16px;
-align-items: flex-start;
+
 gap: 24px;
 border-radius: 8px;
 background: rgba(255, 255, 255, 0.30);
@@ -126,4 +127,29 @@ font-size: 16px;
 font-weight: 400;
  width: 665px;
  margin-top: 30px;
+}
+
+/* Rensponsive */
+@media screen and (max-width:556px) {
+   * {
+    max-width: 300px;
+    margin:0px auto;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   .banner-titles h1{
+    height: 50px;
+    font-size: 34px;
+    margin-top: 50px;
+   }
+   .banner-inputs{
+    padding: 0 0 ;
+   }
+   .banner-inputs select{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   margin: 4px 0;
+   }
+  
 }
