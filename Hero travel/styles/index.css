@@ -43,6 +43,9 @@ text-align: center;
 font-size: 18px;
 font-weight: 400;
 }
+.header-sections i{
+   visibility: hidden;
+}
 .home{
     color: #FF5400;
 }
@@ -163,7 +166,7 @@ color: #FFF;
 border-radius: 8px;
 background: #FF5400;
 border: none;
-margin-top: 45px;
+margin-top: 25px;
 }
 
 
@@ -196,6 +199,7 @@ margin-top: 45px;
    }
    .header-sections i{
     margin-right: 40px;
+    visibility: visible;
    }
    .banner-titles h1{
     height: 50px;
